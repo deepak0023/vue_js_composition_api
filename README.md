@@ -26,3 +26,9 @@ npm run build
 ```
 npx json-server --watch data/db.json --port= (available-port)
 ```
+
+### Hosted website link
+```
+https://fanciful-smakager-567d0d.netlify.app/ (Vue Js frontend)
+https://mock-server-6iau.onrender.com/posts (Backend mock api)
+```
