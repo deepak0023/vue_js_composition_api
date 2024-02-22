@@ -1,4 +1,11 @@
-# sample_project
+# Blog Website 
+## Following features are used
+- Usage of composition reference
+- Usage of composibles
+- Usage of async/await for loading data
+- Usage of composition router
+- Adding a loader
+- Usage of composition router
 
 ## Project setup
 ```
@@ -15,5 +22,7 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles and minifies for production
+```
+npx json-server --watch data/db.json --port= (available-port)
+```
