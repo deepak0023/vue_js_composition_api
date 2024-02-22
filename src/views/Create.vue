@@ -45,7 +45,7 @@ export default {
         tags: tags.value,
       };
 
-      await fetch("http://localhost:3000/posts", {
+      await fetch("https://mock-server-6iau.onrender.com/posts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(post),
